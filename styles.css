@@ -1,0 +1,83 @@
+@font-face {
+    font-family: figtree;
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    width: 343px;
+    height: 480px;
+    border-radius: 1.25rem;
+    outline: 1px solid black;
+    box-shadow: 0.5rem 0.5rem 0;
+    padding: 1.5rem;
+}
+
+.card header {
+    position: absolute;
+    font-size: 14px;
+    height: 53%;
+}
+
+.card img {
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    display: block;
+}
+
+.category span {
+    border-radius: 0.25rem;
+    padding: 0.35rem 0.9rem;
+    font-weight: 800;
+    background-color:hsl(47, 88%, 63%);
+}
+
+.subheader {
+    padding: 1.2rem 0;
+    font-weight: 500;
+}
+
+.card article {
+    position: absolute;
+    top: 59%;
+    height: 28%;
+}
+
+.card article h1 {
+   font-weight: 800;
+}
+
+.card article p {
+    color: #777;
+    font-weight: 500;
+}
+
+.card footer {
+    position: absolute;
+    height: 11%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    top: 85%;
+}
+
+.card footer img {
+    margin: auto;
+    margin-right: 0.75rem;
+    width: 2rem;
+}
+
+.attribution { margin-top: 1rem; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
