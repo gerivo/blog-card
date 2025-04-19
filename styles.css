@@ -1,12 +1,19 @@
 @font-face {
+    font-family: figtree-bold;
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+@font-face {
     font-family: figtree;
-    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+    src: url('assets/fonts/static/Figtree-Medium.ttf');
 }
 
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: figtree;
     font-size: 16px;
+    color: hsl(0, 0%, 7%);
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,7 +21,7 @@ body {
 }
 
 .card {
-    position: relative;
+    box-sizing:border-box;
     background-color: white;
     width: 343px;
     height: 480px;
@@ -25,9 +32,8 @@ body {
 }
 
 .card header {
-    position: absolute;
     font-size: 14px;
-    height: 53%;
+    height: 60%;
 }
 
 .card img {
@@ -40,42 +46,43 @@ body {
 .category span {
     border-radius: 0.25rem;
     padding: 0.35rem 0.9rem;
-    font-weight: 800;
+    font-family: figtree-bold;
     background-color:hsl(47, 88%, 63%);
 }
 
 .subheader {
-    padding: 1.2rem 0;
-    font-weight: 500;
+    padding: 1.0rem 0;
 }
 
 .card article {
-    position: absolute;
     top: 59%;
     height: 28%;
 }
 
-.card article h1 {
-   font-weight: 800;
+.card article h2 {
+   font-size: 20px;
+   font-weight: 950;
 }
 
 .card article p {
-    color: #777;
-    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    line-height: 150%;
+    font-size: 14px;
 }
 
 .card footer {
-    position: absolute;
     height: 11%;
-    font-weight: 800;
+    width: 43%;
+    font-family: figtree-bold;
+    font-size: 14px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     top: 85%;
 }
 
 .card footer img {
-    margin: auto;
-    margin-right: 0.75rem;
+    margin: 0;
     width: 2rem;
 }
 
