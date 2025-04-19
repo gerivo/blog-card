@@ -64,6 +64,10 @@ body {
    font-weight: 950;
 }
 
+.card article h2:hover {
+    color: hsl(47, 88%, 63%);
+ }
+
 .card article p {
     color: hsl(0, 0%, 42%);
     line-height: 150%;
